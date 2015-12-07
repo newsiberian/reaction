@@ -30,11 +30,11 @@ Package.onUse(function (api) {
   api.use("random");
   api.use("ejson");
   api.use("check");
-  api.use("less");
+  // api.use("less");
   api.use("http");
   api.use("reactive-var");
   api.use("email");
-  api.use("browser-policy");
+  // api.use("browser-policy");
   api.use("service-configuration");
   api.use("amplify@1.0.0");
 
@@ -63,18 +63,18 @@ Package.onUse(function (api) {
   api.use("meteorhacks:ssr@2.2.0");
 
   // imply exports package vars
-  api.imply("less");
+  // api.imply("less");
   api.imply("amplify");
   api.imply("accounts-base");
   api.imply("ecmascript");
   api.imply("es5-shim");
-  api.imply("browser-policy");
+  // api.imply("browser-policy");
   api.imply("service-configuration");
   api.imply("reactioncommerce:reaction-collections");
   api.imply("ongoworks:security");
   api.imply("aldeed:autoform");
   api.imply("aldeed:template-extension");
-  api.imply("iron:router");
+  // api.imply("iron:router");
 
   api.imply("alanning:roles");
   api.imply("momentjs:moment");

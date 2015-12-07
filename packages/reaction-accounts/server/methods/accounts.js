@@ -5,6 +5,7 @@
  */
 
 Accounts.registerLoginHandler(function (options) {
+  debugger;
   if (!options.anonymous) {
     return void 0;
   }

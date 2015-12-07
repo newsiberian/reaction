@@ -26,7 +26,7 @@ Package.onUse(function (api) {
   api.use("ecmascript");
 
   // meteor add-on packages
-  api.use("less");
+  // api.use("less");
   api.use("email");
   api.use("random");
   api.use("reactive-var");
@@ -92,7 +92,7 @@ Package.onUse(function (api) {
   // core login form and generic templates
   api.addFiles("client/templates/login/loginForm.html", "client");
   api.addFiles("client/templates/login/loginButtons.html", "client");
-  api.addFiles("client/templates/login/loginForm.less", "client");
+  api.addAssets("client/templates/login/loginForm.less", "client");
   api.addFiles("client/templates/login/loginForm.js", "client");
 
   // sign in
