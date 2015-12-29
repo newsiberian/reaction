@@ -34,7 +34,7 @@ Package.onUse(function (api) {
   api.use("http");
   api.use("reactive-var");
   api.use("email");
-  // api.use("browser-policy");
+  api.use("browser-policy");
   api.use("service-configuration");
   api.use("amplify@1.0.0");
 
@@ -65,7 +65,7 @@ Package.onUse(function (api) {
   api.imply("accounts-base");
   api.imply("ecmascript");
   api.imply("es5-shim");
-  // api.imply("browser-policy");
+  api.imply("browser-policy");
   api.imply("service-configuration");
   api.imply("reactioncommerce:reaction-collections");
   api.imply("reactioncommerce:reaction-email-templates");
