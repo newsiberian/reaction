@@ -73,6 +73,7 @@ Package.onUse(function (api) {
   api.imply("alanning:roles");
   api.imply("alanning:roles");
   api.imply("meteorhacks:subs-manager");
+  api.imply("aldeed:simple-schema");
   // api.imply("amplify");
 
   // ensure schemas vars are passed through

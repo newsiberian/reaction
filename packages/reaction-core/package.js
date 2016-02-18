@@ -19,7 +19,7 @@ Package.onUse(function (api) {
   api.use("es5-shim");
   api.use("blaze-html-templates");
   api.use("session");
-  api.use("jquery");
+  //api.use("jquery");
   api.use("tracker");
   api.use("ddp-rate-limiter");
   api.use("underscore");
@@ -30,8 +30,8 @@ Package.onUse(function (api) {
   api.use("check");
   api.use("less");
   api.use("http");
-  api.use("reactive-var");
-  api.use("reactive-dict");
+  //api.use("reactive-var");
+  //api.use("reactive-dict");
   api.use("email");
   api.use("browser-policy");
   api.use("service-configuration");
@@ -45,13 +45,13 @@ Package.onUse(function (api) {
   api.use("accounts-password");
 
   // community packages
-  api.use("mquandalle:bower@1.5.2_1");
+  //api.use("mquandalle:bower@1.5.2_1");
   api.use("underscorestring:underscore.string@3.2.2");
   api.use("ongoworks:transliteration@0.1.1");
   api.use("reactioncommerce:reaction-collections@2.0.0");
   api.use("reactioncommerce:reaction-email-templates@0.1.0");
-  api.use("aldeed:template-extension@4.0.0", "client");
-  api.use("aldeed:autoform@5.8.1");
+  //api.use("aldeed:template-extension@4.0.0", "client");
+  //api.use("aldeed:autoform@5.8.1");
 
   api.use("ongoworks:bunyan-logger@2.5.0");
   api.use("momentjs:moment@2.11.1");
@@ -70,31 +70,31 @@ Package.onUse(function (api) {
   api.imply("service-configuration");
   api.imply("reactioncommerce:reaction-collections");
   api.imply("reactioncommerce:reaction-email-templates");
-  api.imply("aldeed:autoform");
-  api.imply("aldeed:template-extension");
+  //api.imply("aldeed:autoform");
+  //api.imply("aldeed:template-extension");
   api.imply("mdg:validated-method");
   api.imply("momentjs:moment");
   api.imply("ongoworks:bunyan-logger");
-
+  api.imply("aldeed:simple-schema");
 
   // reaction core dependencies
-  api.addFiles("lib/bower.json", "client");
-  api.addFiles("lib/bower/jquery.ui/ui/core.js", "client");
-  api.addFiles("lib/bower/jquery.ui/ui/widget.js", "client");
-  api.addFiles("lib/bower/jquery.ui/ui/mouse.js", "client");
-  api.addFiles("lib/bower/jquery.ui/ui/position.js", "client");
-  api.addFiles("lib/bower/jquery.ui/ui/autocomplete.js", "client");
-  api.addFiles("lib/bower/jquery.ui/ui/sortable.js", "client");
-  api.addFiles("lib/bower/jquery.ui/ui/draggable.js", "client");
-  api.addFiles("lib/bower/jquery.ui/ui/droppable.js", "client");
-  api.addFiles("lib/bower/jquery.ui/ui/effect.js", "client");
-  api.addFiles("lib/bower/jquery.ui/ui/effect-slide.js", "client");
-  api.addFiles("lib/bower/jquery.ui/ui/menu.js", "client");
-  api.addFiles("lib/bower/autosize/dist/autosize.js", "client");
-  api.addFiles("lib/bower/openexchangerates.accounting/accounting.min.js", "client");
-  api.addFiles("lib/bower/openexchangerates.money/money.js", "client");
-  api.addFiles("lib/bower/jquery.tagsinput/dist/jquery.tagsinput.min.css", "client");
-  api.addFiles("lib/css/jquery-ui.css", "client");
+  //api.addFiles("lib/bower.json", "client");
+  //api.addFiles("lib/bower/jquery.ui/ui/core.js", "client");
+  //api.addFiles("lib/bower/jquery.ui/ui/widget.js", "client");
+  //api.addFiles("lib/bower/jquery.ui/ui/mouse.js", "client");
+  //api.addFiles("lib/bower/jquery.ui/ui/position.js", "client");
+  //api.addFiles("lib/bower/jquery.ui/ui/autocomplete.js", "client");
+  //api.addFiles("lib/bower/jquery.ui/ui/sortable.js", "client");
+  //api.addFiles("lib/bower/jquery.ui/ui/draggable.js", "client");
+  //api.addFiles("lib/bower/jquery.ui/ui/droppable.js", "client");
+  //api.addFiles("lib/bower/jquery.ui/ui/effect.js", "client");
+  //api.addFiles("lib/bower/jquery.ui/ui/effect-slide.js", "client");
+  //api.addFiles("lib/bower/jquery.ui/ui/menu.js", "client");
+  //api.addFiles("lib/bower/autosize/dist/autosize.js", "client");
+  //api.addFiles("lib/bower/openexchangerates.accounting/accounting.min.js", "client");
+  //api.addFiles("lib/bower/openexchangerates.money/money.js", "client");
+  //api.addFiles("lib/bower/jquery.tagsinput/dist/jquery.tagsinput.min.css", "client");
+  //api.addFiles("lib/css/jquery-ui.css", "client");
   api.addFiles("lib/geocoder.js", ["server"]);
 
   // exports

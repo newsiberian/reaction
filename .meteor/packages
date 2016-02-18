@@ -36,40 +36,41 @@ accounts-oauth
 # Reaction Commerce Packages
 
 reactioncommerce:core
-reactioncommerce:core-theme
-reactioncommerce:reaction-layout
+# reactioncommerce:core-theme
+# reactioncommerce:reaction-layout
 reactioncommerce:launchdock-connect
 reactioncommerce:reaction-accounts
-reactioncommerce:reaction-router
+# reactioncommerce:reaction-router
 reactioncommerce:reaction-i18n
-reactioncommerce:reaction-product-variant
-reactioncommerce:reaction-dashboard
-reactioncommerce:reaction-orders
-reactioncommerce:reaction-analytics-libs
-reactioncommerce:reaction-analytics
+# reactioncommerce:reaction-product-variant
+# reactioncommerce:reaction-dashboard
+# reactioncommerce:reaction-orders
+# reactioncommerce:reaction-analytics-libs
+# reactioncommerce:reaction-analytics # depend on blaze
 reactioncommerce:reaction-inventory
-reactioncommerce:reaction-shipping
+# reactioncommerce:reaction-shipping
 reactioncommerce:reaction-social
-reactioncommerce:reaction-checkout
-reactioncommerce:reaction-ui
-reactioncommerce:reaction-ui-navbar
-reactioncommerce:reaction-ui-tagnav
+# reactioncommerce:reaction-checkout
+# reactioncommerce:reaction-ui
+# reactioncommerce:reaction-ui-navbar
+# reactioncommerce:reaction-ui-tagnav
 
 # Reaction Payment Packages
 
 reactioncommerce:reaction-paymentmethod
-reactioncommerce:reaction-paypal
-reactioncommerce:reaction-stripe
-reactioncommerce:reaction-auth-net
-reactioncommerce:reaction-braintree
+# reactioncommerce:reaction-paypal
+# reactioncommerce:reaction-stripe
+# reactioncommerce:reaction-auth-net
+# reactioncommerce:reaction-braintree
 
+newsiberian:reaction-react
 
 # Reaction Commerce Data
 
 reactioncommerce:reaction-sample-data   # default Reaction data
 
 # Themes
-reactioncommerce:default-theme          # default Reaction theme
+#reactioncommerce:default-theme          # default Reaction theme
 #my:custom-theme
 
 # Forced updates on packages

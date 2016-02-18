@@ -13,9 +13,9 @@ Package.onUse(function (api) {
   api.use("mongo");
   api.use("ecmascript");
   api.use("es5-shim");
-  api.use("blaze-html-templates");
+  //api.use("blaze-html-templates");
   api.use("session");
-  api.use("jquery");
+  //api.use("jquery");
   api.use("tracker");
 
   // meteor add-on packages
@@ -33,7 +33,7 @@ Package.onUse(function (api) {
   api.use("reactioncommerce:core@0.12.0");
 
   // client
-  api.addFiles("client/helpers/i18n.js", "client");
+  //api.addFiles("client/helpers/i18n.js", "client");
 
   // server
   api.addFiles("server/import.js", "server");
