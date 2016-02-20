@@ -17,37 +17,40 @@
           "accountsLabel": "Accounts",
           "accountsDescription": "Manage how members sign into your shop",
           "analyticsLabel": "Analytics",
-          "analyticsDescription": "Event tracking and analytics with Reaction Commerce",
-          "authorizeNetLabel": "Authorize.net",
-          "authorizeNetDescription": "Authorize.net Payment for Reaction Commerce",
-          "basicShippingLabel": "Basic Shipping",
-          "basicShippingDescription": "Use flat rates for shipping calculations",
+          "analyticsDescription": "Analytics and tracking integrations",
+          "authorizenetLabel": "Authorize.net",
+          "authorizenetDescription": "Authorize.net payments",
+          "shippingLabel": "Shipping",
+          "shippingDescription": "Provide shipping rates",
           "braintreeLabel": "Braintree",
-          "braintreeDescription": "Braintree Payment for Reaction Commerce",
+          "braintreeDescription": "Braintree payments",
           "coreLabel": "Core",
-          "coreDescription": "Reaction Commerce Core",
+          "coreDescription": "Reaction core shop configuration",
           "genericPaymentLabel": "Generic Payment",
           "genericPaymentDescription": "Generic Payment Method",
-          "importLabel": "Import",
-          "importDescription": "Support for imports and migrations",
+          "i18NLabel": "i18n",
+          "i18NDescription": "Internationalization utilities",
           "inventoryLabel": "Inventory",
-          "inventoryDescription": "Basic Inventory Management",
-          "launchdockLabel": "Launchdock Connect",
-          "launchdockDescription": "Launchdock integration for Reaction Commerce",
+          "inventoryDescription": "Inventory utilities",
+          "connectLabel": "Connect",
+          "connectDescription": "Connect Reaction as a deployed service",
           "ordersLabel": "Orders",
           "ordersDescription": "Fulfill your orders",
           "paypalLabel": "PayPal",
-          "paypalDescription": "PayPal Payment for Reaction Commerce",
+          "paypalDescription": "PayPal payments",
           "socialLabel": "Social",
-          "socialDescription": "Social Sharing for Reaction Commerce",
+          "socialDescription": "Social Channel configuration",
           "stripeLabel": "Stripe",
-          "stripeDescription": "Stripe Payment for Reaction Commerce"
+          "stripeDescription": "Stripe payments"
         },
         "settings": {
           "accountSettingsLabel": "Account Settings",
+          "authorizenetSettingsLabel": "Authorize.net Settings",
+          "braintreeSettingsLabel": "Braintree Settings",
           "shopSettingsLabel": "Shop Settings",
           "socialSettingsLabel": "Social Settings",
           "shippingSettingsLabel": "Shipping Settings",
+          "stripeSettingsLabel": "Stripe Settings",
           "inventorySettingsLabel": "Inventory Settings",
           "analyticsSettingsLabel": "Analytics Settings",
           "paypalSettingsLabel": "PayPal Settings",
@@ -60,6 +63,7 @@
         "guests": "Guests"
       },
       "app": {
+        "auto": "Auto",
         "save": "Save",
         "saveAndContinue": "Save and continue",
         "saveChanges": "Save Changes",
@@ -89,6 +93,7 @@
       "shopSettings": {
         "general": "General",
         "address": "Address",
+        "import": "Import",
         "mail": "Mail",
         "localization": "Localization",
         "options": "Options",
@@ -106,8 +111,8 @@
         "shopLocalizationSettingsFailed": "Shop localization settings update failed. ",
         "shopOptionsSettingsSaved": "Shop options saved.",
         "shopOptionsSettingsFailed": "Shop options update failed. ",
-        "shopPaymentProvidersSaved": "Shop Payment Providers settings saved.",
-        "shopPaymentProvidersFailed": "Shop Payment Providers settings update failed. "
+        "shopPaymentMethodsSaved": "Shop Payment Methods settings saved.",
+        "shopPaymentMethodsFailed": "Shop Payment Methods settings update failed. "
       },
       "header": {
         "tagsAdd": "Add tag",
@@ -192,7 +197,7 @@
         "errorDisabling": "Error disabling package: ",
         "errorEnabling": "Error enabling package: ",
         "details": "Details",
-        "disable": "Disable",
+        "disable": "Are tou sure you want to disable {{app}}?",
         "disableConfirm": "Are you sure you want to disable ",
         "pkgEnabled": " is now enabled.",
         "pkgDisabled": " is now disabled."
@@ -286,6 +291,64 @@
       "addressBookEdit": {
         "editAddress": "Editing this address entry"
       },
+      "corePackageConfig": {
+        "settings": {
+          "mail": {
+            "user": "Username",
+            "password": "Password",
+            "host": "Host",
+            "port": "Port"
+          },
+          "public": {
+            "allowGuestCheckout": "Allow Guest Checkout"
+          },
+          "openexchangerates": {
+            "appId": "Open Exchange Rates App Id",
+            "refreshPeriod": "Open Exchange Rates refresh period",
+            "refreshPeriodPlaceholder": "i.e. every 1 hour"
+          },
+          "google": {
+            "clientId": "Google Client ID",
+            "apiKey": "Google API Key"
+          }
+        }
+      },
+      "shop": {
+        "defaultPaymentMethod": "Default Payment Method",
+        "name": "Name",
+        "namePlaceholder": "Shop Name",
+        "description": "Description",
+        "descriptionPlaceholder": "Describe your shop for SEO",
+        "descriptionTooltip": "This field used by meta description tag. It is allow to search engines to describe your shop",
+        "email": "Email",
+        "emailPlaceholder": "Primary Contact Email",
+        "keywords": "Keywords",
+        "keywordsPlaceholder": "Meta keywords for SEO",
+        "timezone": "Timezone",
+        "timezoneOptions": "Choose timezone",
+        "currency": "Base Currency",
+        "currencyTooltip": "Shop default currency",
+        "baseUOM": "Base Unit of Measure",
+        "addressBook": {
+          "company": "Company",
+          "companyPlaceholder": "This business name",
+          "country": "Country",
+          "fullName": "Full name",
+          "fullNamePlaceholder": "Your organization name",
+          "address1": "Address",
+          "address1Placeholder": "Your organization address",
+          "address1Tooltip": "This address will be visible to visitors",
+          "address2": "Address",
+          "address2Placeholder": "Additional address",
+          "postal": "Postal",
+          "city": "City",
+          "region": "Region",
+          "phone": "Phone",
+          "isShippingDefault": "Make this your default shipping address?",
+          "isBillingDefault": "Make this your default billing address?",
+          "isCommercial": "This is a commercial address."
+        }
+      },
       "address": {
         "country": "Country",
         "fullName": "Full name",
@@ -321,48 +384,6 @@
         "noShippingMethods": "No shipping methods are configured.",
         "configureNow": "Configure now.",
         "shipping": "Shipping"
-      },
-      "shopEditForm": {
-        "allowGuestCheckout": "Allow Guest Checkout",
-        "name": "Name",
-        "namePlaceholder": "Shop Name",
-        "email": "Email",
-        "emailPlaceholder": "Primary Contact Email",
-        "description": "Description",
-        "descriptionPlaceholder": "Describe your shop for SEO",
-        "descriptionTooltip": "This field used by meta description tag. It is allow to search engines to describe your shop",
-        "keywords": "Keywords",
-        "keywordsPlaceholder": "Meta keywords for SEO"
-      },
-      "shopEditAddressForm": {
-        "company": "Company",
-        "companyPlaceholder": "This business name",
-        "fullname": "Full name",
-        "fullnamePlaceholder": "Your organization name",
-        "address1": "Address",
-        "address1Placeholder": "Your organization address",
-        "address1Tooltip": "This address will be visible to visitors",
-        "address2Placeholder": "Additional address"
-      },
-      "shopEditMailForm": {
-        "user": "Username",
-        "password": "Password",
-        "host": "Host",
-        "port": "Port"
-      },
-      "shopEditExternalServicesForm": {
-        "openexchangeratesAppId": "Open Exchange Rates App Id",
-        "openexchangeratesRefresh": "Open Exchange Rates refresh period",
-        "openexchangeratesRefreshPlaceholder": "i.e. every 1 hour",
-        "googleClientId": "Google Client ID",
-        "googleApiKey": "Google API Key"
-      },
-      "shopEditLocalizationForm": {
-        "timezone": "Timezone",
-        "timezoneOptions": "Choose timezone",
-        "baseCurrency": "Base Currency",
-        "baseCurrencyTooltip": "Shop default currency",
-        "baseUOM": "Base Unit of Measure"
       },
       "uom": {
         "OZ": "Ounces",

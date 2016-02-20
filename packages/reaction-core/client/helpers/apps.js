@@ -165,8 +165,18 @@ function getReactionApps(optionHash) {
                 if (!registry.packageName) registry.packageName = app.name;
                 if (registry.enabled !== false) {
                   // TODO move this to a function and reuse with Template.dashboardHeader.helpers
-                  const registryLabel = registry.label ? registry.label.toCamelCase() : "";
-                  const i18nKey = `admin.${registry.provides}.${registryLabel}`;
+                  let registryLabel = "";
+                  let i18nKey;
+                  if (registry.label) {
+                    registryLabel = registry.label.toCamelCase();
+                    i18nKey = `admin.${registry.provides}.${registryLabel}`;
+                  } else if (app.registry && app.registry.length &&
+                    app.registry[0].label) {
+                    registryLabel = app.registry[0].label.toCamelCase();
+                    i18nKey = `admin.${app.registry[0].provides}.${registryLabel}`;
+                  }
+                  //const registryLabel = registry.label ? registry.label.toCamelCase() : "";
+                  //const i18nKey = `admin.${registry.provides}.${registryLabel}`;
                   registry.i18nKeyLabel = `${i18nKey}Label`;
                   registry.i18nKeyDescription = `${i18nKey}Description`;
                   registry.enabled = registry.enabled || app.enabled;

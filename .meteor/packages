@@ -10,7 +10,6 @@
 meteor-base             # Packages every Meteor app needs to have
 mobile-experience       # Packages for a great mobile UX
 blaze-html-templates    # Compile .html files into Meteor Blaze views
-standard-minifiers      # JS/CSS minifiers run for production mode
 es5-shim                # ECMAScript 5 compatibility for older browsers.
 ecmascript              # Enable ECMAScript2015+ syntax in app code
 audit-argument-checks   # ensure meteor method argument validation
@@ -43,8 +42,8 @@ reactioncommerce:reaction-accounts
 # reactioncommerce:reaction-router
 reactioncommerce:reaction-i18n
 # reactioncommerce:reaction-product-variant
-# reactioncommerce:reaction-dashboard
-# reactioncommerce:reaction-orders
+reactioncommerce:reaction-dashboard
+reactioncommerce:reaction-orders
 # reactioncommerce:reaction-analytics-libs
 # reactioncommerce:reaction-analytics # depend on blaze
 reactioncommerce:reaction-inventory
@@ -59,11 +58,11 @@ reactioncommerce:reaction-social
 
 reactioncommerce:reaction-paymentmethod
 # reactioncommerce:reaction-paypal
-# reactioncommerce:reaction-stripe
+reactioncommerce:reaction-stripe
 # reactioncommerce:reaction-auth-net
 # reactioncommerce:reaction-braintree
 
-newsiberian:reaction-react
+#newsiberian:reaction-react
 
 # Reaction Commerce Data
 
@@ -75,3 +74,5 @@ reactioncommerce:reaction-sample-data   # default Reaction data
 
 # Forced updates on packages
 mdg:validation-error@0.4.0
+standard-minifier-css
+standard-minifier-js

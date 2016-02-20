@@ -8,47 +8,50 @@
       },
       "admin": {
         "shortcut": {
-          "dashboardLabel": "Панель Управления",
+          "dashboardLabel": "Панель управления",
           "ordersLabel": "Заказы",
           "addProductLabel": "Создать продукт",
           "accountsLabel": "Пользователи"
         },
         "dashboard": {
           "accountsLabel": "Учётные записи",
-          "accountsDescription": "Управляйте сервисами, через которые пользователи могут регистрироваться в Вашем магазине",
+          "accountsDescription": "Управление сервисами авторизации",
           "analyticsLabel": "Аналитика",
-          "analyticsDescription": "Отслеживание событий и аналитика для Reaction Commerce",
+          "analyticsDescription": "Внедрение аналитики и отслеживания событий",
           "authorizeNetLabel": "Authorize.net",
-          "authorizeNetDescription": "Платежи через Authorize.net для Reaction Commerce",
-          "basicShippingLabel": "Доставка",
-          "basicShippingDescription": "Используйте фиксированную ставку для расчета доставки",
+          "authorizeNetDescription": "Платежи через Authorize.net",
+          "shippingLabel": "Доставка",
+          "shippingDescription": "Настройки тарифов по доставке",
           "braintreeLabel": "Braintree",
-          "braintreeDescription": "Платежи через Braintree для Reaction Commerce",
+          "braintreeDescription": "Платежи через Braintree",
           "coreLabel": "Ядро",
-          "coreDescription": "Ядро Reaction Commerce",
-          "genericPaymentLabel": "Образец Платёжной системы",
-          "genericPaymentDescription": "Тестируйте платежи либо используйте её как образец для портирования любых Платёжных систем",
-          "importLabel": "Импорт",
-          "importDescription": "Поддержка импорта и миграций",
+          "coreDescription": "Базовые настройки магазина Reaction",
+          "genericPaymentLabel": "Образец платёжной системы",
+          "genericPaymentDescription": "Тестирование платежей. Образец для портирования любых Платёжных систем",
+          "i18NLabel": "i18n",
+          "i18NDescription": "Интернационализация",
           "inventoryLabel": "Товары",
-          "inventoryDescription": "Управление товарами",
-          "launchdockLabel": "Launchdock Connect",
-          "launchdockDescription": "Интеграция с Launchdock для Reaction Commerce",
+          "inventoryDescription": "Утилиты для работы с товарами",
+          "connectLabel": "Connect",
+          "connectDescription": "Подключение Reaction как развёрнутого сервиса",
           "ordersLabel": "Заказы",
-          "ordersDescription": "Выполняйте заказы",
+          "ordersDescription": "Управление заказами",
           "paypalLabel": "PayPal",
-          "paypalDescription": "Платежи через PayPal для Reaction Commerce",
+          "paypalDescription": "Платежи через PayPal",
           "socialLabel": "Социальные сети",
-          "socialDescription": "Интеграция Reaction Commerce с соц. сетями",
+          "socialDescription": "Интеграция с соц. сетями",
           "stripeLabel": "Stripe",
-          "stripeDescription": "Платежи через Stripe для Reaction Commerce"
+          "stripeDescription": "Платежи через Stripe"
         },
         "settings": {
-          "accountSettingsLabel": "Настройки Управления Учётными Записями",
-          "shopSettingsLabel": "Настройки Магазина",
+          "accountSettingsLabel": "Настройки учетных записей",
+          "authorizenetSettingsLabel": "Настройки Authorize.net",
+          "braintreeSettingsLabel": "Настройки Braintree",
+          "shopSettingsLabel": "Настройки магазина",
           "socialSettingsLabel": "Настройки соц. сетей",
           "shippingSettingsLabel": "Настройки доставки",
-          "inventorySettingsLabel": "Настройки Управления товарами",
+          "stripeSettingsLabel": "Настройки Stripe",
+          "inventorySettingsLabel": "Настройки управления товарами",
           "analyticsSettingsLabel": "Настройки аналитики",
           "paypalSettingsLabel": "Настройки PayPal",
           "genericPaymentSettingsLabel": "Настройки Generic Payment"
@@ -60,6 +63,7 @@
         "guests": "Гости"
       },
       "app": {
+        "auto": "Автоматически",
         "save": "Сохранить",
         "saveAndContinue": "Сохранить и продолжить",
         "saveChanges": "Сохранить изменения",
@@ -89,11 +93,12 @@
       "shopSettings": {
         "general": "Основные",
         "address": "Адрес",
+        "import": "Импорт",
         "mail": "Почта",
         "localization": "Локализация",
         "options": "Настройки",
         "paymentMethods": "Платёжные системы",
-        "externalServices": "Сторонние Сервисы",
+        "externalServices": "Сторонние сервисы",
         "shopGeneralSettingsSaved": "Настройки магазина обновлены.",
         "shopGeneralSettingsFailed": "Не удалось изменить основные настройки магазина. ",
         "shopAddressSettingsSaved": "Адрес магазина изменён.",
@@ -106,8 +111,8 @@
         "shopLocalizationSettingsFailed": "Не удалось изменить настройки локализации. ",
         "shopOptionsSettingsSaved": "Настройка магазина обновлена.",
         "shopOptionsSettingsFailed": "Не удалось изменить настройку. ",
-        "shopPaymentProvidersSaved": "Настройки Платёжных Систем обновлены.",
-        "shopPaymentProvidersFailed": "Не удалось изменить настройки Платёжных Систем. "
+        "shopPaymentMethodsSaved": "Настройки платёжных систем обновлены.",
+        "shopPaymentMethodsFailed": "Не удалось изменить настройки платёжных систем. "
       },
       "header": {
         "tagsAdd": "Добавить метку",
@@ -124,15 +129,15 @@
         "tagsEdit": "Редактировать метку",
         "tagExists": "Метка пуста, либо такая уже существует.",
         "dropFiles": "Бросьте сюда файлы для их загрузки",
-        "addInventory": "Добавить Позицию",
+        "addInventory": "Добавить позицию",
         "barcode": "Штрих-код",
         "confirmDeleteBarcode": "Вы уверены, что хотите удалить штрих-код",
         "details": "Подробности",
         "detailsName": "Название характеристики",
         "detailsInfo": "Значение характеристики",
         "generate": "Сформировать",
-        "generateBarcodes": "Сформировать Штрих-коды",
-        "hideBarcodes": "Скрыть Штрих-коды",
+        "generateBarcodes": "Сформировать штрих-коды",
+        "hideBarcodes": "Скрыть штрих-коды",
         "options": "Варианты",
         "addToCart": "Добавить в корзину",
         "chooseOptions": "Пожалуйста выберите вариант прежде чем добавить товар в корзину",
@@ -142,7 +147,7 @@
         "quantityAbbreviation": "Кол-во",
         "selectOption": "Выберите вариант прежде чем добавить в корзину",
         "addedToCart": "добавлено",
-        "showBarcodes": "Показать Штрих-коды",
+        "showBarcodes": "Показать штрих-коды",
         "soldOut": "Распродано!",
         "backOrder": "Доступно под заказ",
         "limitedSupply": "Предложение ограничено",
@@ -151,7 +156,7 @@
         "clonedAlert": "Скопирован",
         "deletedAlert": "Удален",
         "startTracking": "Начать слежение",
-        "addBarcode": "Добавить Штрих-код",
+        "addBarcode": "Добавить штрих-код",
         "quantity": "Количество",
         "quantityGreaterThanZero": "Ошибка: Количество должно быть больше нуля",
         "notFoundTitle": "Ой!",
@@ -205,13 +210,13 @@
         "errorDisabling": "Ошибка отключения пакета: ",
         "errorEnabling": "Ошибка подключения пакета: ",
         "details": "Подробнее",
-        "disable": "Отключить",
+        "disable": "Вы уверены в том, что хотите отключить {{app}}?",
         "disableConfirm": "Вы уверенны в том, что хотите отключить ",
         "pkgEnabled": " подключен",
         "pkgDisabled": " отключен"
       },
       "cartDrawer": {
-        "empty": "Очень жаль, Ваша корзина пуста",
+        "empty": "Очень жаль, ваша корзина пуста",
         "keepShopping": "Продолжить покупки",
         "checkout": "Оформить заказ"
       },
@@ -229,7 +234,7 @@
       "order": {
         "created": "Создан",
         "reference": "Референс",
-        "invoice": "Инвойс",
+        "invoice": "Счёт-фактура",
         "ordersNotFound": "Не найдено заказов",
         "approveInvoice": "Подтвердить",
         "makeAdjustments": "Корректировать",
@@ -285,7 +290,7 @@
         "guestMessage": "Вы можете оформить заказ без создания учётной записи. У вас будет возможность создать её позже."
       },
       "addressBookGrid": {
-        "addAddress": "Добавить Адрес",
+        "addAddress": "Добавить адрес",
         "chooseAddress": "Выбор адреса доставки и платёжного адреса",
         "createDefault": "Добавить адрес по умолчанию",
         "selectShippingAddress": "Выберите адрес доставки",
@@ -297,6 +302,64 @@
       },
       "addressBookEdit": {
         "editAddress": "Редактирование адреса"
+      },
+      "corePackageConfig": {
+        "settings": {
+          "mail": {
+            "user": "Пользователь",
+            "password": "Пароль",
+            "host": "Хост",
+            "port": "Порт"
+          },
+          "public": {
+            "allowGuestCheckout": "Разрешить заказывать незарегистрированным пользователям"
+          },
+          "openexchangerates": {
+            "appId": "Open Exchange Rates App Id",
+            "refreshPeriod": "Период обновления Open Exchange Rates",
+            "refreshPeriodPlaceholder": "например: every 1 hour"
+          },
+          "google": {
+            "clientId": "Google Client ID",
+            "apiKey": "Ключ Google API"
+          }
+        }
+      },
+      "shop": {
+        "defaultPaymentMethod": "Платёжная система по умолчанию",
+        "name": "Название",
+        "namePlaceholder": "Название магазина",
+        "description": "Описание",
+        "descriptionPlaceholder": "Опишите свой магазин для SEO",
+        "descriptionTooltip": "Это поле используется мета-тэгом <meta-description>. В нём текст, которым поисковая система будет описывать ваш магазин.",
+        "email": "Email",
+        "emailPlaceholder": "Основной email магазина",
+        "keywords": "Ключевые слова",
+        "keywordsPlaceholder": "Ключевые слова для SEO",
+        "timezone": "Часовой пояс",
+        "timezoneOptions": "Выберите часовой пояс",
+        "currency": "Основная валюта",
+        "currencyTooltip": "Базовая валюта в магазине",
+        "baseUOM": "Основные единицы измерения",
+        "addressBook": {
+          "company": "Компания",
+          "companyPlaceholder": "Название компании",
+          "country": "Страна",
+          "fullName": "Название организации",
+          "fullNamePlaceholder": "Название вашей организации",
+          "address1": "Адрес",
+          "address1Placeholder": "Адрес вашей организации",
+          "address1Tooltip": "Этот адрес будет виден посетителям",
+          "address2": "Адрес (доп.)",
+          "address2Placeholder": "Например, номер офиса",
+          "postal": "Почтовый индекс",
+          "city": "Город",
+          "region": "Область/Край",
+          "phone": "Телефон",
+          "isShippingDefault": "Сделать адресом доставки по умолчанию?",
+          "isBillingDefault": "Сделать платёжным адресом по умолчанию?",
+          "isCommercial": "Это юридический адрес"
+        }
       },
       "address": {
         "country": "Страна",
@@ -312,10 +375,10 @@
         "isCommercial": "Это юридический адрес"
       },
       "checkoutProgressBar": {
-        "login": "Вход в Учётную Запись",
+        "login": "Вход в учётную запись",
         "shippingBilling": "Адреса",
         "shippingOptions": "Варианты доставки",
-        "reviewPayment": "Подтверждение и Оплата",
+        "reviewPayment": "Подтверждение и оплата",
         "complete": "Готово"
       },
       "checkoutPayment": {
@@ -333,48 +396,6 @@
         "noShippingMethods": "Нет настроенных способов доставки.",
         "configureNow": "Настроить сейчас.",
         "shipping": "Доставка"
-      },
-      "shopEditForm": {
-        "allowGuestCheckout": "Разрешить заказывать незарегистрированным пользователям",
-        "name": "Название",
-        "namePlaceholder": "Название магазина",
-        "email": "Email",
-        "emailPlaceholder": "Основной Email магазина",
-        "description": "Описание",
-        "descriptionPlaceholder": "Опишите свой магазин для SEO",
-        "descriptionTooltip": "This field used by meta description tag. It is allow to search engines to describe your shop",
-        "keywords": "Ключевые слова",
-        "keywordsPlaceholder": "Ключевые слова для SEO"
-      },
-      "shopEditAddressForm": {
-        "company": "Компания",
-        "companyPlaceholder": "Название компании",
-        "fullname": "Полное название",
-        "fullnamePlaceholder": "Название вашей организации",
-        "address1": "Адрес",
-        "address1Placeholder": "Адрес вашей организации",
-        "address1Tooltip": "Этот адрес будет виден посетителям",
-        "address2Placeholder": "Например, номер офиса"
-      },
-      "shopEditMailForm": {
-        "user": "Пользователь",
-        "password": "Пароль",
-        "host": "Хост",
-        "port": "Порт"
-      },
-      "shopEditExternalServicesForm": {
-        "openexchangeratesAppId": "Open Exchange Rates App Id",
-        "openexchangeratesRefresh": "Период обновления Open Exchange Rates",
-        "openexchangeratesRefreshPlaceholder": "например: every 1 hour",
-        "googleClientId": "Google Client ID",
-        "googleApiKey": "Ключ Google API"
-      },
-      "shopEditLocalizationForm": {
-        "timezone": "Часовой пояс",
-        "timezoneOptions": "Выберите часовой пояс",
-        "baseCurrency": "Основная валюта",
-        "baseCurrencyTooltip": "Базовая валюта в магазине",
-        "baseUOM": "Основные единицы измерения"
       },
       "uom": {
         "OZ": "Унции",
@@ -407,7 +428,7 @@
         "back": "назад",
         "changePassword": "Сменить пароль",
         "choosePassword": "Придумайте пароль",
-        "clickAgree": "Нажав Регистрация вы соглашаетесь с условиями",
+        "clickAgree": "Нажав \"Регистрация\", вы соглашаетесь с условиями",
         "configure": "Конфигурировать",
         "createAccount": "Создать аккаунт",
         "currentPassword": "Текущий пароль",
