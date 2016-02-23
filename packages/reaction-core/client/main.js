@@ -25,25 +25,26 @@ _.extend(ReactionCore, {
           // initialize local client Countries collection
           createCountryCollection(shop);
 
-          // fix for https://github.com/reactioncommerce/reaction/issues/248
-          // we need to keep an eye for rates changes
-          const { Locale } = ReactionCore;
-          if (typeof Locale.locale === "object" &&
-            typeof Locale.currency === "object" &&
-            typeof Locale.locale.currency === "string") {
-            const localeCurrency = Locale.locale.currency.split(",")[0];
-            if (typeof shop.currencies[localeCurrency] === "object") {
-              if (typeof shop.currencies[localeCurrency].rate === "number") {
-                Locale.currency.rate = shop.currencies[localeCurrency].rate;
-                localeDep.changed();
-              }
-            }
-          }
-          // we are looking for a shopCurrency changes here
-          if (typeof Locale.shopCurrency === "object") {
-            Locale.shopCurrency = shop.currencies[shop.currency];
-            localeDep.changed();
-          }
+          // FIXME take a look at this part then PDP will be ready
+          //// fix for https://github.com/reactioncommerce/reaction/issues/248
+          //// we need to keep an eye for rates changes
+          //const { Locale } = ReactionCore;
+          //if (typeof Locale.locale === "object" &&
+          //  typeof Locale.currency === "object" &&
+          //  typeof Locale.locale.currency === "string") {
+          //  const localeCurrency = Locale.locale.currency.split(",")[0];
+          //  if (typeof shop.currencies[localeCurrency] === "object") {
+          //    if (typeof shop.currencies[localeCurrency].rate === "number") {
+          //      Locale.currency.rate = shop.currencies[localeCurrency].rate;
+          //      localeDep.changed();
+          //    }
+          //  }
+          //}
+          //// we are looking for a shopCurrency changes here
+          //if (typeof Locale.shopCurrency === "object") {
+          //  Locale.shopCurrency = shop.currencies[shop.currency];
+          //  localeDep.changed();
+          //}
           return self;
         }
       }
