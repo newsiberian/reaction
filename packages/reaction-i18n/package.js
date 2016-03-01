@@ -42,7 +42,7 @@ Package.onUse(function (api) {
 
   // server
   api.addFiles("server/import.js", "server");
-  api.addFiles("server/i18next.js", "server");
+  //api.addFiles("server/i18next.js", "server");
   api.addFiles("server/methods.js", "server");
 
   // export client i18next
@@ -53,7 +53,7 @@ Package.onUse(function (api) {
 
   // client helpers
   //api.addFiles("client/helpers/i18n.js", "client");
-  api.addFiles("client/helpers/helpers.js", "client");
+  //api.addFiles("client/helpers/helpers.js", "client");
 
   // i18nchooser
   //api.addFiles("client/templates/header/i18n.html", "client");
