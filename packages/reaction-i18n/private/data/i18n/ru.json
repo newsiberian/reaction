@@ -41,7 +41,9 @@
           "socialLabel": "Социальные сети",
           "socialDescription": "Интеграция с соц. сетями",
           "stripeLabel": "Stripe",
-          "stripeDescription": "Платежи через Stripe"
+          "stripeDescription": "Платежи через Stripe",
+          "filtrationLabel": "Фильтрация",
+          "filtrationDescription": "Фильтрация продуктов в Reaction"
         },
         "settings": {
           "accountSettingsLabel": "Настройки учетных записей",
@@ -65,6 +67,8 @@
         "guests": "Гости"
       },
       "app": {
+        "add": "Создать",
+        "editMode": "Режим редактирования",
         "auto": "Автоматически",
         "save": "Сохранить",
         "saveAndContinue": "Сохранить и продолжить",
@@ -197,9 +201,10 @@
         "price": "Цена",
         "optionTitle": "Опция",
         "barcode": "Штрих-код",
-        "compareAtPrice": "Цена(MSRP)",
+        "compareAtPrice": "Цена (MSRP)",
         "fulfillmentService": "Обслуживание услуги",
         "weight": "Вес",
+        "taxable": "Налогооблагаемый",
         "inventoryManagement": "Следить за кол-вом",
         "inventoryPolicy": "Откл. при нуле",
         "lowInventoryWarningThreshold": "Сообщить если меньше "
@@ -251,6 +256,7 @@
         "filter": {
           "new": "Новых",
           "captured": "Оплаченных",
+          "processing": "В работе",
           "shipped": "Доставленых",
           "completed": "Завершенных",
           "canceled": "Отмененных",
@@ -530,6 +536,27 @@
           "matchFailed": "Не совпадают",
           "unknownError": "Неизвестная ошибка"
         }
+      },
+      "filtration": {
+        "filters": {
+          "titleLabel": "Название",
+          "titlePlaceholder": "Введите название",
+          "priceLabel": "Цена",
+          "weightLabel": "Вес",
+          "tagLabel": "Тэг",
+          "tagPlaceholder": "Введите тег",
+          "detailsLabel": "Характеристики",
+          "detailNamePlaceholder": "Название",
+          "detailValuePlaceholder": "Значение",
+          "visibilityLabel": "Видимость",
+          "visibilityAny": "Все",
+          "visibilityNotVisible": "Невидимые",
+          "visibilityVisible": "Видимые"
+        },
+        "showFilters": "Показать фильтры",
+        "settings": "Фильтры",
+        "found": "Найдено",
+        "products": "продуктов"
       },
       "error": {
         "nameRequired": "Название обязательно.",
