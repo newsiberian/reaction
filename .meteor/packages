@@ -38,6 +38,7 @@ mikepol:accounts-ok			# Login service for Odnoklassniki.ru accounts (https://ok.
 
 reactioncommerce:core
 # reactioncommerce:core-theme
+reactioncommerce:reaction-catalog
 # reactioncommerce:reaction-layout
 reactioncommerce:launchdock-connect
 reactioncommerce:reaction-accounts
