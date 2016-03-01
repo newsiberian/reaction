@@ -66,8 +66,8 @@ reactioncommerce:reaction-paymentmethod
 # reactioncommerce:reaction-braintree
 
 # Add on community packages
+# ramusus:reaction-filtration
 newsiberian:reaction-react
-#ramusus:reaction-filtration
 
 # Reaction Commerce Data
 
