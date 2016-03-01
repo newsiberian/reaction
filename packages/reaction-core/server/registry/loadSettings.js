@@ -20,6 +20,7 @@ ReactionRegistry.loadSettings = function (json) {
   let service;
   let services;
   let settings;
+  let result;
   let validatedJson = EJSON.parse(json);
 
   // validate json and error out if not an array

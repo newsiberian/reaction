@@ -31,6 +31,8 @@ accounts-twitter
 accounts-github
 accounts-weibo
 accounts-oauth
+mrt:accounts-vk					# Login service for VKontakte accounts (https://vk.com)
+mikepol:accounts-ok			# Login service for Odnoklassniki.ru accounts (https://ok.ru)
 
 # Reaction Commerce Packages
 
@@ -58,7 +60,7 @@ reactioncommerce:reaction-social
 
 reactioncommerce:reaction-paymentmethod
 # reactioncommerce:reaction-paypal
-reactioncommerce:reaction-stripe
+# reactioncommerce:reaction-stripe
 # reactioncommerce:reaction-auth-net
 # reactioncommerce:reaction-braintree
 

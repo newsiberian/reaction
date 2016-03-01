@@ -10,14 +10,14 @@ Npm.depends({
 });
 
 Package.onUse(function (api) {
-  api.versionsFrom("METEOR@1.2.1");
+  api.versionsFrom("METEOR@1.3-modules-beta.8");
 
   // meteor base packages
   api.use("meteor-base");
   api.use("mongo");
   api.use("ecmascript");
   api.use("es5-shim");
-  api.use("blaze-html-templates");
+  //api.use("blaze-html-templates");
   api.use("session");
   //api.use("jquery");
   api.use("tracker");
@@ -37,7 +37,7 @@ Package.onUse(function (api) {
   api.use("service-configuration");
   api.use("amplify@1.0.0");
   api.use("mdg:validated-method@1.0.1");
-  api.use("react-template-helper@0.2.3");
+  //api.use("react-template-helper@0.2.3");
 
   // meteor authentication packages
   api.use("oauth-encryption");
@@ -144,14 +144,14 @@ Package.onUse(function (api) {
   api.addFiles("server/methods/workflows/orders.js", "server");
 
   // client
-  api.addFiles("client/helpers/layout.js", "client");
-  api.addFiles("client/helpers/apps.js", "client");
-  api.addFiles("client/helpers/globals.js", "client");
-  api.addFiles("client/helpers/permissions.js", "client");
-  api.addFiles("client/helpers/utilities.js", "client");
+  //api.addFiles("client/helpers/layout.js", "client");
+  //api.addFiles("client/helpers/apps.js", "client");
+  //api.addFiles("client/helpers/globals.js", "client");
+  //api.addFiles("client/helpers/permissions.js", "client");
+  //api.addFiles("client/helpers/utilities.js", "client");
 
-  api.addFiles("client/components/numericInput/numericInput.html", "client");
-  api.addFiles("client/components/numericInput/numericInput.js", "client");
+  //api.addFiles("client/components/numericInput/numericInput.html", "client");
+  //api.addFiles("client/components/numericInput/numericInput.js", "client");
 
   // Exports
   api.export("ReactionCore");
