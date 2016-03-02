@@ -9,7 +9,7 @@
 
 meteor-base             # Packages every Meteor app needs to have
 mobile-experience       # Packages for a great mobile UX
-blaze-html-templates    # Compile .html files into Meteor Blaze views
+# blaze-html-templates    # Compile .html files into Meteor Blaze views
 es5-shim                # ECMAScript 5 compatibility for older browsers.
 ecmascript              # Enable ECMAScript2015+ syntax in app code
 audit-argument-checks   # ensure meteor method argument validation
