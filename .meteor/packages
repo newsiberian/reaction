@@ -9,7 +9,7 @@
 
 meteor-base             # Packages every Meteor app needs to have
 mobile-experience       # Packages for a great mobile UX
-# blaze-html-templates    # Compile .html files into Meteor Blaze views
+#blaze-html-templates    # Compile .html files into Meteor Blaze views
 es5-shim                # ECMAScript 5 compatibility for older browsers.
 ecmascript              # Enable ECMAScript2015+ syntax in app code
 audit-argument-checks   # ensure meteor method argument validation
@@ -25,12 +25,12 @@ audit-argument-checks   # ensure meteor method argument validation
 
 # Meteor Auth Packages
 
-accounts-facebook
+#accounts-facebook
 accounts-google
-accounts-twitter
-accounts-github
-accounts-weibo
-accounts-oauth
+#accounts-twitter
+#accounts-github
+#accounts-weibo
+#accounts-oauth
 mrt:accounts-vk					# Login service for VKontakte accounts (https://vk.com)
 mikepol:accounts-ok			# Login service for Odnoklassniki.ru accounts (https://ok.ru)
 
