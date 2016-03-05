@@ -20,7 +20,7 @@ Package.onUse(function (api) {
   api.use("check");
   api.use("ecmascript");
   api.use("ddp-rate-limiter");
-  api.use("blaze-html-templates");
+  //api.use("blaze-html-templates");
   api.use("reactioncommerce:core@0.12.0");
   api.use("reactioncommerce:reaction-logger@0.1.0");
 
@@ -35,11 +35,11 @@ Package.onUse(function (api) {
   api.addFiles("server/publications.js", ["server"]); // publish inventory
   api.addFiles("server/methods.js", ["server"]); // server methods
 
-  api.addFiles("client/templates/dashboard/inventory.js", "client");
-  api.addFiles("client/templates/dashboard/inventory.html", "client");
-
-  api.addFiles("client/templates/settings/settings.js", "client");
-  api.addFiles("client/templates/settings/settings.html", "client");
+  //api.addFiles("client/templates/dashboard/inventory.js", "client");
+  //api.addFiles("client/templates/dashboard/inventory.html", "client");
+  //
+  //api.addFiles("client/templates/settings/settings.js", "client");
+  //api.addFiles("client/templates/settings/settings.html", "client");
 
   // export for server use
   api.export("ReactionInventory", "server");

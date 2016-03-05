@@ -14,7 +14,7 @@ Package.onUse(function (api) {
 
   // meteor base packages
   api.use("meteor-base");
-  api.use("mongo");
+  //api.use("mongo");
   api.use("ecmascript");
   api.use("es5-shim");
   //api.use("blaze-html-templates");
@@ -28,13 +28,13 @@ Package.onUse(function (api) {
   api.use("random");
   api.use("ejson");
   api.use("check");
-  api.use("less");
+  //api.use("less");
   api.use("http");
   //api.use("reactive-var");
   //api.use("reactive-dict");
   api.use("email");
   api.use("browser-policy");
-  api.use("service-configuration");
+  //api.use("service-configuration");
   api.use("amplify@1.0.0");
   api.use("mdg:validated-method@1.0.1");
   //api.use("react-template-helper@0.2.3");
@@ -56,7 +56,7 @@ Package.onUse(function (api) {
   api.use("risul:moment-timezone@0.5.0_5");
 
   // imply exports package vars
-  api.imply("less");
+  //api.imply("less");
   api.imply("ejson");
   api.imply("session");
   api.imply("tracker");
@@ -65,7 +65,7 @@ Package.onUse(function (api) {
   api.imply("ecmascript");
   api.imply("es5-shim");
   api.imply("browser-policy");
-  api.imply("service-configuration");
+  //api.imply("service-configuration");
   api.imply("reactioncommerce:reaction-logger");
   api.imply("reactioncommerce:reaction-collections");
   api.imply("reactioncommerce:reaction-email-templates");

@@ -108,7 +108,7 @@ ReactionImport.identify = function (document) {
  * @returns {undefined}
  */
 ReactionImport.flush = function (collection) {
-  check(collection, Match.Optional(Mongo.Collection));
+  //check(collection, Match.Optional(Mongo.Collection));
 
   if (!collection) {
     for (let name of Object.keys(this._buffers)) {

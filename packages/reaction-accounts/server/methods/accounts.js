@@ -92,7 +92,7 @@ Accounts.onCreateUser(function (options, user) {
 
     // run onCreateUser hooks
     // (the user object must be returned by all callbacks)
-    userDoc = ReactionCore.Hooks.Events.run("onCreateUser", user, options);
+    const userDoc = ReactionCore.Hooks.Events.run("onCreateUser", user, options);
 
     return userDoc;
   }
