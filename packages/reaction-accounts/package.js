@@ -53,7 +53,7 @@ Package.onUse(function (api) {
   api.addFiles("client/helpers/util.js", ["client", "server"]);
   api.addFiles("client/helpers/validation.js", "client");
   //api.addFiles("client/helpers/helpers.js", "client");
-  api.addFiles("client/helpers/subscriptions.js", "client");
+  //api.addFiles("client/helpers/subscriptions.js", "client");
 
   //// Dashboard
   //api.addFiles("client/templates/dashboard/dashboard.html", "client");

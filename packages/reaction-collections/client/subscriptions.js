@@ -20,7 +20,7 @@ ReactionCore.Subscriptions.Packages = Meteor.subscribe("Packages");
 
 ReactionCore.Subscriptions.Tags = Meteor.subscribe("Tags");
 
-ReactionCore.Subscriptions.Media = Meteor.subscribe("Media");
+//ReactionCore.Subscriptions.Media = Meteor.subscribe("Media");
 
 // admin only
 // todo should we put this inside autorun and detect user changes

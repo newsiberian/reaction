@@ -6,7 +6,7 @@ Package.describe({
 });
 
 Package.onUse(function (api) {
-  api.versionsFrom("METEOR@1.2");
+  api.versionsFrom("METEOR@1.3-beta.12");
   api.use("random");
   api.use("underscore");
   api.use("ecmascript");
@@ -28,7 +28,7 @@ Package.onUse(function (api) {
   api.use("ongoworks:security@1.3.0");
   api.use("reactioncommerce:reaction-logger@0.1.0");
   api.use("alanning:roles@1.2.14");
-  api.use("meteorhacks:subs-manager@1.6.3");
+  //api.use("meteorhacks:subs-manager@1.6.3");
 
   // ReactionCore declaration
   api.addFiles("common/globals.js");
@@ -74,8 +74,7 @@ Package.onUse(function (api) {
   api.imply("vsivsi:job-collection");
   api.imply("ongoworks:security");
   api.imply("alanning:roles");
-  api.imply("alanning:roles");
-  api.imply("meteorhacks:subs-manager");
+  //api.imply("meteorhacks:subs-manager");
   api.imply("reactioncommerce:reaction-schemas");
 
   // ensure schemas vars are passed through

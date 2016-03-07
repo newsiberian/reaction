@@ -11,7 +11,7 @@ if (!ReactionCore.Log) ReactionCore.Log = {}; // Move logger create here
 // See: https://github.com/kadirahq/subs-manager
 //
 // ReactionCore.Subscriptions = new SubsManager();
-ReactionSubscriptions = new SubsManager();
+//ReactionSubscriptions = new SubsManager();
 
 if (Meteor.isClient) {
   if (!ReactionCore.Subscriptions) ReactionCore.Subscriptions = {};

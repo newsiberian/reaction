@@ -88,7 +88,6 @@ meteor-base@1.0.1
 meteor-env-dev@0.0.2-beta.12
 meteor-env-prod@0.0.2-beta.12
 meteorhacks:ssr@2.2.0
-meteorhacks:subs-manager@1.6.3
 mikepol:accounts-ok@0.1.1
 minifier-css@1.1.8-beta.12
 minifier-js@1.1.8-beta.12
