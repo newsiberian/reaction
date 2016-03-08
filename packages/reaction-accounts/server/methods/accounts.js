@@ -83,7 +83,7 @@ Accounts.onCreateUser(function (options, user) {
     // send a welcome email to new users,
     // but skip the first default admin user
     // (default admins already get a verification email)
-    if (!Meteor.users.find().count() === 0) {
+    if (!(Meteor.users.find().count() === 0)) {
       Meteor.call("accounts/sendWelcomeEmail", shopId, user._id);
     }
 
