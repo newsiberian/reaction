@@ -14,7 +14,7 @@ Package.describe({
 //});
 
 Package.onUse(function (api) {
-  api.versionsFrom("METEOR@1.2.1");
+  api.versionsFrom("METEOR@1.3-beta.16");
 
   // meteor base packages
   api.use("meteor-base");
@@ -31,8 +31,8 @@ Package.onUse(function (api) {
   api.use("reload");
   api.use("check");
   api.use("http");
-  api.use("reactive-var");
-  api.use("reactive-dict");
+  //api.use("reactive-var");
+  //api.use("reactive-dict");
 
   // reaction packages
   api.use("reactioncommerce:reaction-collections@2.0.1");

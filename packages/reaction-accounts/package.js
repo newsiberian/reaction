@@ -6,7 +6,7 @@ Package.describe({
 });
 
 Package.onUse(function (api) {
-  api.versionsFrom("METEOR@1.3-beta.12");
+  api.versionsFrom("METEOR@1.3-beta.16");
 
   // meteor base packages
   api.use("meteor-base");
