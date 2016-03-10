@@ -130,7 +130,7 @@ reactioncommerce:reaction-logger@0.1.0
 reactioncommerce:reaction-orders@1.0.0
 reactioncommerce:reaction-paymentmethod@0.0.3
 reactioncommerce:reaction-sample-data@0.1.2
-reactioncommerce:reaction-schemas@2.0.2
+reactioncommerce:reaction-schemas@2.0.3
 reactive-dict@1.1.4-beta.12
 reactive-var@1.0.6
 reload@1.1.5-beta.12
