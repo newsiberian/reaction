@@ -219,3 +219,19 @@ Meteor.publish("Products", function (productScrollLimit = 24, productFilters, so
     });
   }
 });
+
+Meteor.publish("ProductsSettings", function (productIdList) {
+  check(productIdList, [String]);
+
+  const shop = ReactionCore.getCurrentShop();
+  if (!shop) {
+    return this.ready();
+  }
+  const selector = {
+    _id: { $in: productIdList },
+    ancestors: { $exists: true, $eq: [] },
+    shopId: shop._id
+  };
+
+  return Products.find(selector);
+});
