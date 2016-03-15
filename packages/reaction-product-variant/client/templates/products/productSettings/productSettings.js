@@ -8,8 +8,8 @@ Template.productSettings.helpers({
     weightDependency.depend();
 
     for (let product of this.products) {
-      let position = product.position || {};
-      let currentWeight = position.weight || 0;
+      let positions = product.positions || {};
+      let currentWeight = positions.weight || 0;
       if (currentWeight === weight) {
         return "active";
       }

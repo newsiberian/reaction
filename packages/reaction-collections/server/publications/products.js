@@ -227,11 +227,5 @@ Meteor.publish("ProductsSettings", function (productIdList) {
   if (!shop) {
     return this.ready();
   }
-  const selector = {
-    _id: { $in: productIdList },
-    ancestors: { $exists: true, $eq: [] },
-    shopId: shop._id
-  };
-
-  return Products.find(selector);
+  return ReactionCore.Collections.Products.find({ _id: { $in: productIdList } });
 });

@@ -214,7 +214,9 @@
         "deleteThisProduct": "Удалить этот товар?",
         "deleteSelectedProducts": "Удалить выбранные товары?",
         "publish": "Опубликовать",
-        "moreOptions": "Больше опций"
+        "moreOptions": "Больше опций",
+        "noSelectedProducts": "Нет выбранных продуктов. Нажмите на ",
+        "orShiftCtrlCmd": " либо используйте shift|ctrl|cmd + клик мыши на продуктах, чтобы выбрань несколько. С шифтом вы можете выбирать ряд смежных продуктов."
       },
       "productVariant": {
         "inventoryQuantity": "Количество",
