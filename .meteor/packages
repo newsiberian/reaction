@@ -77,6 +77,5 @@ reactioncommerce:reaction-sample-data   # default Reaction data
 #my:custom-theme
 
 # Forced updates on packages
-mdg:validation-error@0.4.0
 standard-minifier-css
 standard-minifier-js

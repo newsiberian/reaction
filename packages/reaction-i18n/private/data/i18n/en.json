@@ -523,11 +523,22 @@
           "invitationSent": "Invitation Sent",
           "sendInvitation": "Send invitation"
         },
+        "reactionUI": {
+          "editTheme": "Edit Theme",
+          "duplicateTheme": "Duplicate Theme",
+          "duplicateThemeError": "Couldn't duplicate theme",
+          "publishThemeError": "`Couldn't publish theme {{themeName}}",
+          "components": {
+            "navbar": "Navigation Bar",
+            "button": "Button"
+          }
+        },
         "error": {
           "emailRequired": "Email is required.",
           "passwordRequired": "Password is required.",
           "passwordMustBeAtLeast6CharactersLong": "Password must be at least 6 characters long.",
           "passwordMustContainRequirements": "Password must contain at least one number or symbol.",
+          "usernameMinLength": "Username must be at least 3 characters long",
           "minChar": "6 character minimum password.",
           "pwdsDontMatch": "Passwords don't match",
           "pwOneDigit": "Password must have at least one digit.",
