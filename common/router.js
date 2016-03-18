@@ -3,7 +3,7 @@
 //    Tracker.autorun(function () {
 //      // initialize client routing
 //      if (ReactionCore.Subscriptions.Packages.ready() && ReactionCore.Subscriptions.Shops.ready()) {
-//        ReactionRouter.initPackageRoutes(Meteor.userId());
+//        ReactionRouter.initPackageRoutes();
 //      }
 //    }); // end tracker
 //  }
