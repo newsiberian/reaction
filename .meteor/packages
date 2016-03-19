@@ -59,7 +59,7 @@ reactioncommerce:reaction-inventory
 
 # Reaction Payment Packages
 
-reactioncommerce:reaction-paymentmethod
+# reactioncommerce:reaction-paymentmethod
 # reactioncommerce:reaction-paypal
 # reactioncommerce:reaction-stripe
 # reactioncommerce:reaction-auth-net
