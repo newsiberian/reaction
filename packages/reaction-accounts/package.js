@@ -6,7 +6,7 @@ Package.describe({
 });
 
 Package.onUse(function (api) {
-  api.versionsFrom("METEOR@1.3-beta.16");
+  api.versionsFrom("METEOR@1.3-rc.3");
 
   // meteor base packages
   api.use("meteor-base");
@@ -120,7 +120,7 @@ Package.onTest(function (api) {
   api.use("sanjo:jasmine@0.21.0");
   api.use("ecmascript");
   api.use("random");
-  api.use("jquery");
+  //api.use("jquery");
   api.use("underscore");
   api.use("velocity:html-reporter@0.9.1");
   api.use("velocity:console-reporter@0.1.4");
