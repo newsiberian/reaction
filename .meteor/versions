@@ -128,7 +128,6 @@ reactioncommerce:reaction-i18n@2.0.0
 reactioncommerce:reaction-inventory@0.2.3
 reactioncommerce:reaction-logger@0.1.0
 reactioncommerce:reaction-orders@1.0.0
-reactioncommerce:reaction-paymentmethod@0.0.3
 reactioncommerce:reaction-sample-data@0.1.2
 reactioncommerce:reaction-schemas@2.0.3
 reactive-dict@1.1.4-beta.16
