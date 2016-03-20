@@ -67,6 +67,7 @@ reactioncommerce:reaction-inventory
 
 # Add on community packages
 newsiberian:reaction-react
+sunlark:reaction-comments-core
 
 # Reaction Commerce Data
 
