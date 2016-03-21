@@ -67,6 +67,7 @@ reactioncommerce:reaction-inventory
 
 # Add on community packages
 newsiberian:reaction-react
+sunlark:reaction-comments-core
 
 # Reaction Commerce Data
 
@@ -79,3 +80,10 @@ reactioncommerce:reaction-sample-data   # default Reaction data
 # Forced updates on packages
 standard-minifier-css
 standard-minifier-js
+
+# Testing packages
+avital:mocha
+dburles:factory
+practicalmeteor:sinon
+tmeasday:acceptance-test-driver
+xolvio:cleaner

@@ -12,7 +12,7 @@ Npm.depends({
 });
 
 Package.onUse(function (api) {
-  api.versionsFrom("METEOR@1.3-rc.3");
+  api.versionsFrom("METEOR@1.3-rc.4");
 
   // meteor base packages
   api.use("meteor-base");
