@@ -1,6 +1,7 @@
 [{
   "language": "Russian",
   "i18n": "ru",
+  "ns": "core",
   "translation": {
     "core": {
       "languages": {
@@ -55,9 +56,6 @@
           "paypalLabel": "PayPal",
           "paypalTitle": "PayPal",
           "paypalDescription": "Платежи через PayPal",
-          "reactUiLabel": "React UI",
-          "reactUiTitle": "React UI",
-          "reactUiDescription": "Интерфейс React JS для Reaction",
           "routingLabel": "маршрутизация",
           "routingTitle": "маршрутизация",
           "routingDescription": "Маршрутизация утилиты",
@@ -85,6 +83,7 @@
           "authorizenetSettingsLabel": "Настройки Authorize.net",
           "permissionsSettingsLabel": "Права доступа",
           "braintreeSettingsLabel": "Настройки Braintree",
+          "commentsSettingsLabel": "Настройки комментариев",
           "localizationAndI18NLabel": "Локализация и i18n",
           "shopSettingsLabel": "Настройки магазина",
           "socialSettingsLabel": "Настройки соц. сетей",

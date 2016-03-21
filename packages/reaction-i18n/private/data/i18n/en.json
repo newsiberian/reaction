@@ -1,6 +1,7 @@
 [{
   "language": "English",
   "i18n": "en",
+  "ns": "core",
   "translation": {
     "core": {
       "languages": {
@@ -58,9 +59,6 @@
           "paypalLabel": "PayPal",
           "paypalTitle": "PayPal",
           "paypalDescription": "PayPal payments",
-          "reactUiLabel": "React UI",
-          "reactUiTitle": "React UI",
-          "reactUiDescription": "React JS UI for Reaction",
           "routingLabel": "Routing",
           "routingTitle": "Routing",
           "routingDescription": "Routing utilities",
@@ -90,6 +88,7 @@
           "authorizenetSettingsLabel": "Authorize.net Settings",
           "permissionsSettingsLabel": "Permissions",
           "braintreeSettingsLabel": "Braintree Settings",
+          "commentsSettingsLabel": "Comments Settings",
           "localizationAndI18NLabel": "Localization and i18n",
           "shopSettingsLabel": "Shop Settings",
           "socialSettingsLabel": "Social Settings",
