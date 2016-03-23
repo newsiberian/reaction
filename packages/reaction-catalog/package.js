@@ -7,7 +7,7 @@ Package.describe({
 
 
 Package.onUse(function (api) {
-  api.versionsFrom("METEOR@1.3-rc.4");
+  api.versionsFrom("METEOR@1.3-rc.8");
 
   // meteor base packages
   // TODO: @Aaron, please, check this deps list.

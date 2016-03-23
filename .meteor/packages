@@ -82,8 +82,8 @@ standard-minifier-css
 standard-minifier-js
 
 # Testing packages
-avital:mocha
-dburles:factory
-practicalmeteor:sinon
-tmeasday:acceptance-test-driver
-xolvio:cleaner
+#avital:mocha
+#dburles:factory
+#practicalmeteor:sinon
+#tmeasday:acceptance-test-driver
+#xolvio:cleaner
