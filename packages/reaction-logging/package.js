@@ -6,7 +6,7 @@ Package.describe({
 });
 
 Package.onUse(function(api) {
-  api.versionsFrom("METEOR@1.3-rc.8");
+  api.versionsFrom("METEOR@1.3-rc.12");
 
   Npm.depends({
     "bunyan": "1.7.1",
