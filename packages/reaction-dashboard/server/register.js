@@ -27,7 +27,7 @@ ReactionCore.registerPackage({
     provides: "shortcut",
     label: "Dashboard",
     template: "dashboardPackages",
-    icon: "icon-reaction-logo",
+    icon: "fa fa-tachometer",
     priority: 0
   }, {
     route: "/dashboard/shop/settings",
