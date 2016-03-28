@@ -290,7 +290,8 @@ ReactionCore.Schemas.Product = new SimpleSchema({
     optional: true
   },
   description: {
-    type: String,
+    type: Object,
+    blackbox: true,
     optional: true
   },
   type: {
