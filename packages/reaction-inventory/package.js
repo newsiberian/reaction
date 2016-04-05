@@ -7,7 +7,7 @@ Package.describe({
 
 
 Package.onUse(function (api) {
-  api.versionsFrom("METEOR@1.3");
+  api.versionsFrom("METEOR@1.3.1");
 
   // meteor base packages
   api.use("meteor-base");
