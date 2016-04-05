@@ -52,7 +52,7 @@ reactioncommerce:reaction-orders
 reactioncommerce:reaction-inventory
 # reactioncommerce:reaction-shipping
 #reactioncommerce:reaction-social
-# reactioncommerce:reaction-checkout
+reactioncommerce:reaction-checkout
 # reactioncommerce:reaction-ui
 # reactioncommerce:reaction-ui-navbar
 # reactioncommerce:reaction-ui-tagnav

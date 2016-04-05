@@ -162,7 +162,11 @@ ReactionCore.Schemas.ProductVariant = new SimpleSchema({
     custom: function () {
       if (Meteor.isClient) {
         if (this.siblingField("type").value !== "inventory") {
-          if (ReactionProduct.checkChildVariants(this.docId) === 0 && !this.value) {
+          if (ReactionCore.Collections.Products.find({
+            ancestors: { $in: [this.docId] },
+            type: type || "variant"
+          }).count() === 0 && !this.value) {
+          // if (ReactionProduct.checkChildVariants(this.docId) === 0 && !this.value) {
             return "required";
           }
         }
@@ -184,7 +188,11 @@ ReactionCore.Schemas.ProductVariant = new SimpleSchema({
     custom: function () {
       if (Meteor.isClient) {
         if (this.siblingField("type").value !== "inventory") {
-          if (ReactionProduct.checkChildVariants(this.docId) === 0 && !this.value) {
+          if (ReactionCore.Collections.Products.find({
+            ancestors: { $in: [this.docId] },
+            type: type || "variant"
+          }).count() === 0 && !this.value) {
+          // if (ReactionProduct.checkChildVariants(this.docId) === 0 && !this.value) {
             return "required";
           }
         }

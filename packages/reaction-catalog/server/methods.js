@@ -333,7 +333,7 @@ Meteor.methods({
     // @link http://underscorejs.org/#sortBy
     const sortedVariants = _.sortBy(variants, doc => doc.ancestors.length);
 
-    sortedVariants.map(variant => {
+    return sortedVariants.map(variant => {
       const oldId = variant._id;
       let type = "child";
       let clone = {};
