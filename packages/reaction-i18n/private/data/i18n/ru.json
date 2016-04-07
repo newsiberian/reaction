@@ -12,7 +12,8 @@
           "dashboardLabel": "Панель управления",
           "ordersLabel": "Заказы",
           "addProductLabel": "Создать продукт",
-          "accountsLabel": "Пользователи"
+          "accountsLabel": "Пользователи",
+          "commentsLabel": "Комментарии"
         },
         "dashboard": {
           "accountsLabel": "Учётные записи",
@@ -103,6 +104,7 @@
       "app": {
         "add": "Создать",
         "editMode": "Режим редактирования",
+        "createContent": "Создать содержимое",
         "auto": "Автоматически",
         "save": "Сохранить",
         "saveAndContinue": "Сохранить и продолжить",

@@ -12,7 +12,8 @@
           "dashboardLabel": "Dashboard",
           "ordersLabel": "Orders",
           "addProductLabel": "Add Product",
-          "accountsLabel": "Accounts"
+          "accountsLabel": "Accounts",
+          "commentsLabel": "Comments"
         },
         "dashboard": {
           "accountsLabel": "Accounts",
