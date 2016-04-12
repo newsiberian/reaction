@@ -1,17 +1,18 @@
 Package.describe({
   summary: "Reaction Commerce i18n utilities",
   name: "reactioncommerce:reaction-i18n",
-  version: "2.0.1",
+  version: "2.1.0",
   documentation: "README.md"
 });
 
-//Npm.depends({
-//  "i18next": "2.2.0",
-//  "i18next-sprintf-postprocessor": "0.0.6",
-//  "i18next-browser-languagedetector": "0.0.14",
-//  "i18next-localstorage-cache": "0.0.4",
-//  "jquery-i18next": "0.0.14"
-//});
+// Npm.depends({
+//   "i18next": "2.2.0",
+//   "i18next-sprintf-postprocessor": "0.0.6",
+//   "i18next-browser-languagedetector": "0.0.14",
+//   "i18next-localstorage-cache": "0.0.4",
+//   "jquery-i18next": "0.0.14",
+//   "accounting-js": "1.1.1"
+// });
 
 Package.onUse(function (api) {
   api.versionsFrom("METEOR@1.3.1");
@@ -21,9 +22,8 @@ Package.onUse(function (api) {
   api.use("mongo");
   api.use("ecmascript");
   api.use("es5-shim");
-  //api.use("blaze-html-templates");
+  // api.use("blaze-html-templates");
   api.use("session");
-  //api.use("jquery");
   api.use("tracker");
 
   // meteor add-on packages
@@ -31,37 +31,35 @@ Package.onUse(function (api) {
   api.use("reload");
   api.use("check");
   api.use("http");
-  //api.use("reactive-var");
-  //api.use("reactive-dict");
+  // api.use("reactive-var");
+  // api.use("reactive-dict");
 
   // reaction packages
-  api.use("reactioncommerce:reaction-collections@2.0.1");
-  api.use("reactioncommerce:core@0.12.0");
-  // temp until Meteor 1.3 and we switch to modules
-  //api.use("cosmos:browserify@0.10.0", "client");
+  api.use("reactioncommerce:reaction-collections@2.2.0");
+  api.use("reactioncommerce:core@0.13.0");
 
   // server
   api.addFiles("server/import.js", "server");
-  //api.addFiles("server/i18next.js", "server");
+  // api.addFiles("server/i18next.js", "server");
   api.addFiles("server/methods.js", "server");
 
   // export client i18next
-  //api.addFiles("client/i18next.browserify.js", "client");
+  // api.addFiles("client/i18next.js", "client");
 
   // register reaction package
   api.addFiles("server/register.js", "server");
 
-  // client helpers
-  //api.addFiles("client/helpers/i18n.js", "client");
-  //api.addFiles("client/helpers/helpers.js", "client");
-
-  // i18nchooser
-  //api.addFiles("client/templates/header/i18n.html", "client");
-  //api.addFiles("client/templates/header/i18n.js", "client");
-
-  // settings
-  //api.addFiles("client/templates/i18nSettings.html", "client");
-  //api.addFiles("client/templates/i18nSettings.js", "client");
+  // // client helpers
+  // api.addFiles("client/helpers/i18n.js", "client");
+  // api.addFiles("client/helpers/helpers.js", "client");
+  //
+  // // i18nchooser
+  // api.addFiles("client/templates/header/i18n.html", "client");
+  // api.addFiles("client/templates/header/i18n.js", "client");
+  //
+  // // settings
+  // api.addFiles("client/templates/i18nSettings.html", "client");
+  // api.addFiles("client/templates/i18nSettings.js", "client");
 
   // i18n translations
   api.addAssets("private/data/i18n/ar.json", "server");
@@ -87,13 +85,13 @@ Package.onUse(function (api) {
   api.addAssets("private/data/i18n/tr.json", "server");
   api.addAssets("private/data/i18n/vi.json", "server");
   api.addAssets("private/data/i18n/nb.json", "server");
-  // exports
-  //api.imply("jquery");
-  //api.export("i18next");
-  //api.export("i18nextSprintfPostProcessor");
-  //api.export("i18nextJquery");
-  //api.export("i18nextBrowserLanguageDetector");
-  //api.export("i18nextLocalStorageCache");
+  // // exports
+  // api.imply("jquery");
+  // api.export("i18next");
+  // api.export("i18nextSprintfPostProcessor");
+  // api.export("i18nextJquery");
+  // api.export("i18nextBrowserLanguageDetector");
+  // api.export("i18nextLocalStorageCache");
 });
 
 Package.onTest(function (api) {
@@ -106,10 +104,10 @@ Package.onTest(function (api) {
   api.use("velocity:console-reporter@0.1.4");
 
   // reaction core
-  api.use("reactioncommerce:reaction-i18n@2.0.0");
-  api.use("reactioncommerce:reaction-collections@2.0.1");
+  api.use("reactioncommerce:reaction-i18n@2.1.0");
+  api.use("reactioncommerce:reaction-collections@2.2.0");
   api.use("reactioncommerce:reaction-factories@0.4.2");
-  api.use("reactioncommerce:core@0.12.0");
+  api.use("reactioncommerce:core@0.13.0");
 
   // server integration tests
   api.addFiles("tests/jasmine/server/integration/methods.js", "server");

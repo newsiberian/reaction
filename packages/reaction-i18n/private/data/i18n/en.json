@@ -140,7 +140,8 @@
         "notFoundTitle": "Oops!",
         "notFoundError": "Page not found.",
         "productNotFound": "This product was not found.",
-        "loadMoreProducts": "Load more products"
+        "loadMoreProducts": "Load more products",
+        "noProductsFound": "No Products found"
       },
       "shopSettings": {
         "general": "General",
@@ -557,6 +558,8 @@
         "with": "with",
         "checkoutAsGuest": "Checkout without user account",
         "role": "Role",
+        "yourOrders": "Your Orders",
+        "addressBook": "Address Book",
         "info": {
           "emailSent": "Email Sent",
           "emailVerified": "Email verified",
