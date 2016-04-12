@@ -50,7 +50,7 @@ reactioncommerce:reaction-orders
 # reactioncommerce:reaction-analytics-libs
 # reactioncommerce:reaction-analytics # depend on blaze
 reactioncommerce:reaction-inventory
-# reactioncommerce:reaction-shipping
+reactioncommerce:reaction-shipping
 #reactioncommerce:reaction-social
 reactioncommerce:reaction-checkout
 # reactioncommerce:reaction-ui

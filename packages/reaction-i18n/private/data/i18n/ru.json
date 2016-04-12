@@ -94,6 +94,9 @@
           "analyticsSettingsLabel": "Настройки аналитики",
           "paypalSettingsLabel": "Настройки PayPal",
           "genericPaymentSettingsLabel": "Настройки Generic Payment"
+        },
+        "userAccountDropdown": {
+          "profileLabel": "Профиль"
         }
       },
       "accounts": {
@@ -358,15 +361,20 @@
         "addAddress": "Добавить адрес",
         "chooseAddress": "Выбор адреса доставки и платёжного адреса",
         "createDefault": "Добавить адрес по умолчанию",
+        "edit": "Редактировать",
+        "removeAddress": "Удалить адрес",
         "selectShippingAddress": "Выберите адрес доставки",
-        "selectBillingAddress": "Выберите платёжный адрес"
+        "selectBillingAddress": "Выберите платёжный адрес",
+        "cantRemoveThisAddress": "Невозможно удалить этот адрес: {{err}}"
       },
       "addressBookAdd": {
         "addAddress": "Добавить ещё адрес",
-        "createAddress": "Добавить адрес по умолчанию"
+        "createAddress": "Добавить адрес по умолчанию",
+        "failedToAddAddress": "Добавить адрес не удалось: {{err}}"
       },
       "addressBookEdit": {
-        "editAddress": "Редактирование адреса"
+        "editAddress": "Редактирование адреса",
+        "somethingWentWrong": "Что-то пошло не так: {{err}}"
       },
       "corePackageConfig": {
         "settings": {
@@ -435,7 +443,7 @@
         "address2": "Адрес (доп.)",
         "postal": "Почтовый индекс",
         "city": "Город",
-        "region": "Область/Край",
+        "region": "Область\/Край",
         "phone": "Телефон",
         "isShippingDefault": "Сделать вашим адресом доставки по умолчанию?",
         "isBillingDefault": "Сделать вашим платёжным адресом по умолчанию?",
