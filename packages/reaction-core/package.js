@@ -8,7 +8,7 @@ Package.describe({
 Npm.depends({
   "node-geocoder": "3.9.1",
   "lodash.merge": "4.3.2",
-  "lodash.uniqwith": "4.2.0",
+  "lodash.uniqwith": "4.2.0"
   // "jquery.payment": "1.2.4",
   // "autosize": "3.0.15",
   // "tether": "1.0.2",
@@ -24,7 +24,7 @@ Package.onUse(function (api) {
   api.use("mongo");
   api.use("ecmascript");
   api.use("es5-shim");
-  //api.use("blaze-html-templates");
+  // api.use("blaze-html-templates");
   api.use("session");
   api.use("tracker");
   api.use("ddp-rate-limiter");
