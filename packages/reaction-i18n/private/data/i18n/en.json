@@ -348,7 +348,7 @@
       "cartCompleted": {
         "thankYou": "Thank you!",
         "itemsFrom": "item(s) from",
-        "yourOrderIsNow": "Your order is now",
+        "yourOrderIsNow": "Your order is now ",
         "summaryMessage": "Thank you for your order.",
         "submitted": "submitted",
         "registerGuest": "Hello! Add an email and receive order updates.",
@@ -471,7 +471,8 @@
         "processingError": "There was a problem with your payment.",
         "completeYourOrder": "Complete your order",
         "noPaymentMethods": "No payment methods are configured.",
-        "configureNow": "Configure now."
+        "configureNow": "Configure now.",
+        "failedToPlaceOrder": "Failed to place order."
       },
       "checkoutReview": {
         "review": "Review"
