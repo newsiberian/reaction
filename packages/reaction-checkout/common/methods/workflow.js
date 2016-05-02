@@ -329,14 +329,12 @@ Meteor.methods({
       return item;
     });
 
-    const result = ReactionCore.Collections.Orders.update({
+    return ReactionCore.Collections.Orders.update({
       _id: order._id
     }, {
       $set: {
         items: items
       }
     });
-
-    return result;
   }
 });

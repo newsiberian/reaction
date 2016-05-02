@@ -295,6 +295,7 @@
         "checkout": "Checkout now"
       },
       "cartSubTotals": {
+        "discount": "Discount",
         "head": "Your cart",
         "items": "Items in cart",
         "subtotal": "Sub total",
@@ -316,6 +317,7 @@
         "paymentCaptured": "Payment Captured",
         "capturedTotal": "Captured Total",
         "refundAmount": "Refund Amount",
+        "applyRefundToThisOrder": "Apply refund of {{refund}} to this order?",
         "applyRefund": "Apply Refund",
         "adjustedTotal": "Adjusted Total",
         "processor": "Processor",
@@ -335,11 +337,19 @@
         "noTracking": "No Tracking",
         "tracking": "Tracking",
         "addtracking": "Add Tracking",
+        "itemsHaveBeenShipped": "Items have been shipped",
         "shipmentEmpty": "This shipment has no items",
         "shipmentPacked": "All Items Packed",
         "shipped": "Shipped",
         "shippingNotifyCustomer": "Notify the customer that their items will be shipping soon.",
         "resendNotification": "Resend Shipment Notification"
+      },
+      "orderWorkflow": {
+        "fulfillment": "Fulfillment",
+        "orderDetails": "Order Details",
+        "summary": "Summary",
+        "invoice": "Invoice",
+        "shipmentTracking": "Shipment Tracking"
       },
       "cartCheckout": {
         "surprise": "Woah!",

@@ -67,6 +67,7 @@ reactioncommerce:reaction-logger
 # Add on community packages
 newsiberian:reaction-react
 sunlark:reaction-comments-core
+reactioncommerce:reaction-paymentmethod-bank
 
 # Reaction Commerce Data
 reactioncommerce:reaction-sample-data   # default Reaction data
