@@ -1,7 +1,7 @@
 {
   "ROOT_URL": "",
   "MONGO_URL": "",
-  "MAIL_URL": "",
+  "MAIL_URL": "smtp://localhost",
   "reaction": {
     "REACTION_USER": "",
     "REACTION_AUTH": "",

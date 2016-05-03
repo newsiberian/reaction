@@ -33,14 +33,40 @@ ReactionCore.Schemas.History = new SimpleSchema({
  */
 
 ReactionCore.Schemas.Notes = new SimpleSchema({
-  content: {
+  _id: {
     type: String
+  },
+  content: {
+    type: Object,
+    blackbox: true
   },
   userId: {
     type: String
   },
+  createdAt: {
+    type: Date,
+    autoValue: function () {
+      if (this.isUpdate && !this.isSet) {
+        return new Date;
+      }
+      this.unset();
+    },
+    denyUpdate: true
+  },
   updatedAt: {
-    type: Date
+    type: Date,
+    autoValue: function () {
+      if (this.isUpdate) {
+        return {
+          $set: new Date
+        };
+      } else if (this.isUpsert) {
+        return {
+          $setOnInsert: new Date
+        };
+      }
+    },
+    optional: true
   }
 });
 

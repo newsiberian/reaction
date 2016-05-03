@@ -95,6 +95,10 @@ ReactionCore.Schemas.Cart = new SimpleSchema({
     optional: true,
     blackbox: true
   },
+  notes: {
+    type: [ReactionCore.Schemas.Notes],
+    optional: true
+  },
   workflow: {
     type: ReactionCore.Schemas.Workflow,
     optional: true
