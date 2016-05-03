@@ -332,7 +332,7 @@
       },
       "orderShipping": {
         "shipTo": "Доставить до",
-        "notShipped": "Еще не доставлено",
+        "notShipped": "Ещё не доставлено",
         "noTracking": "Не отслеживается",
         "tracking": "Трекинг номер",
         "addTracking": "Добавить идентификатор",
@@ -360,7 +360,7 @@
         "yourOrderIsNow": "Ваш заказ ",
         "summaryMessage": "Благодарим за заказ.",
         "submitted": "размещён",
-        "registerGuest": "Привет! Добавьте email для получения обновлений заказа.",
+        "registerGuest": "Здравствуйте! Добавьте email для получения обновлений заказа.",
         "trackYourDelivery": "Обновления заказа будут высланы на",
         "noOrdersFound": "Заказов не найдено.",
         "adminMessage": "Вы просматриваете заказы как администратор"
@@ -459,7 +459,7 @@
         "address2": "Адрес (доп.)",
         "postal": "Почтовый индекс",
         "city": "Город",
-        "region": "Область\/Край",
+        "region": "Область/Край",
         "phone": "Телефон",
         "isShippingDefault": "Сделать вашим адресом доставки по умолчанию?",
         "isBillingDefault": "Сделать вашим платёжным адресом по умолчанию?",
@@ -476,7 +476,7 @@
         "complete": "Готово"
       },
       "checkoutPayment": {
-        "addPaymentToCompleteOrder": "Добавить способ оплаты для завершения заказа",
+        "addPaymentToCompleteOrder": "Добавить платёж для завершения заказа",
         "processingError": "С вашим платежом возникли сложности.",
         "completeYourOrder": "Завершить ваш заказ",
         "noPaymentMethods": "Не указан ни один вариант платежа.",

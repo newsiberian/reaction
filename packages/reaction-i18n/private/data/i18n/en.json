@@ -336,7 +336,7 @@
         "notShipped": "Not Yet Shipped",
         "noTracking": "No Tracking",
         "tracking": "Tracking",
-        "addtracking": "Add Tracking",
+        "addTracking": "Add Tracking",
         "itemsHaveBeenShipped": "Items have been shipped",
         "shipmentEmpty": "This shipment has no items",
         "shipmentPacked": "All Items Packed",
@@ -358,7 +358,7 @@
       "cartCompleted": {
         "thankYou": "Thank you!",
         "itemsFrom": "item(s) from",
-        "yourOrderIsNow": "Your order is now ",
+        "yourOrderIsNow": "Your order is now",
         "summaryMessage": "Thank you for your order.",
         "submitted": "submitted",
         "registerGuest": "Hello! Add an email and receive order updates.",
