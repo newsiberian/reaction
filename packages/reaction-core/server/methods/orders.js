@@ -193,8 +193,8 @@ Meteor.methods({
     }
 
     return {
-      notify: notifyResult,
-      workflow: workflowResult,
+      notifyResult: notifyResult,
+      workflowResult: workflowResult,
       completedItems: completedItemsResult,
       completedOrder: completedOrderResult
     };
