@@ -36,6 +36,30 @@ ReactionCore.Schemas.CartItem = new SimpleSchema({
 });
 
 /**
+ * Order Notes Schema
+ */
+// this schema temporary here. Currently without it is impossible to insert notes
+// in cart object. Latter we will import Notes schema from other file.
+ReactionCore.Schemas.Notes = new SimpleSchema({
+  _id: {
+    type: String
+  },
+  content: {
+    type: String
+  },
+  userId: {
+    type: String
+  },
+  createdAt: {
+    type: Date
+  },
+  updatedAt: {
+    type: Date,
+    optional: true
+  }
+});
+
+/**
  * CartItem Schema
  * used in check by inventory/addReserve method
  */

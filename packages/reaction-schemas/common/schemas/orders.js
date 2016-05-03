@@ -37,35 +37,16 @@ ReactionCore.Schemas.Notes = new SimpleSchema({
     type: String
   },
   content: {
-    type: Object,
-    blackbox: true
+    type: String
   },
   userId: {
     type: String
   },
   createdAt: {
-    type: Date,
-    autoValue: function () {
-      if (this.isUpdate && !this.isSet) {
-        return new Date;
-      }
-      this.unset();
-    },
-    denyUpdate: true
+    type: Date
   },
   updatedAt: {
     type: Date,
-    autoValue: function () {
-      if (this.isUpdate) {
-        return {
-          $set: new Date
-        };
-      } else if (this.isUpsert) {
-        return {
-          $setOnInsert: new Date
-        };
-      }
-    },
     optional: true
   }
 });
