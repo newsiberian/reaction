@@ -66,6 +66,7 @@ reactioncommerce:reaction-logger
 
 # Add on community packages
 newsiberian:reaction-react
+sunlark:reaction-blog-core
 sunlark:reaction-comments-core
 reactioncommerce:reaction-paymentmethod-bank
 
