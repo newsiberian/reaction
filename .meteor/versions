@@ -119,7 +119,7 @@ reactioncommerce:core@0.13.0
 reactioncommerce:reaction-accounts@1.7.0
 reactioncommerce:reaction-catalog@0.2.3
 reactioncommerce:reaction-checkout@1.0.1
-reactioncommerce:reaction-collections@2.2.1
+reactioncommerce:reaction-collections@2.2.2
 reactioncommerce:reaction-dashboard@1.0.0
 reactioncommerce:reaction-email-templates@0.2.1
 reactioncommerce:reaction-i18n@2.1.0
@@ -149,6 +149,7 @@ sunlark:reaction-comments-core@0.0.2
 templating@1.1.9
 templating-tools@1.0.4
 tmeasday:check-npm-versions@0.3.1
+tmeasday:publish-counts@0.7.3
 tracker@1.0.13
 ui@1.0.11
 underscore@1.0.8
